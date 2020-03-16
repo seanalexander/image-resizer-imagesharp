@@ -7,16 +7,14 @@ namespace image_resizer
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var services = new ServiceCollection();
             ConfigureServices(services);
 
-            using (ServiceProvider serviceProvider = services.BuildServiceProvider())
-            {
-                MyApplication app = serviceProvider.GetService<MyApplication>();
-                app.Run();
-            }
+            using ServiceProvider serviceProvider = services.BuildServiceProvider();
+            MyApplication app = serviceProvider.GetService<MyApplication>();
+            app.Run();
         }
         private static void ConfigureServices(ServiceCollection services)
         {
