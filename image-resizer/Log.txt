@@ -1,0 +1,44 @@
+2020-03-16 05:33:53.230 +00:00 [INF] Resizing Image(s)
+2020-03-16 05:33:53.276 +00:00 [INF] Starting Resize of Batch:
+2020-03-16 05:33:53.762 +00:00 [INF] {
+    file_path: "./Test/ImageOut/stripes-1280x960.100x75.png",
+    elaspsed_time: "71",
+    file_width: "100",
+    file_height: "75"
+},
+2020-03-16 05:33:53.803 +00:00 [INF] {
+    file_path: "./Test/ImageOut/stripes-640x320.100x75.png",
+    elaspsed_time: "18",
+    file_width: "100",
+    file_height: "75"
+},
+2020-03-16 05:33:53.874 +00:00 [INF] {
+    file_path: "./Test/ImageOut/stripes-960x640.100x75.png",
+    elaspsed_time: "30",
+    file_width: "100",
+    file_height: "75"
+},
+2020-03-16 05:33:53.878 +00:00 [INF] Elapsed time		598 ms
+2020-03-16 05:33:53.879 +00:00 [INF] Completed.
+2020-03-16 05:51:57.320 +00:00 [INF] Resizing Image(s)
+2020-03-16 05:51:57.330 +00:00 [INF] Starting Resize of Batch:
+2020-03-16 05:51:57.662 +00:00 [INF] {
+    file_path: "./Test/ImageOut/stripes-1280x960.100x75.png",
+    elaspsed_time: "67",
+    file_width: "100",
+    file_height: "75"
+},
+2020-03-16 05:51:57.705 +00:00 [INF] {
+    file_path: "./Test/ImageOut/stripes-640x320.100x75.png",
+    elaspsed_time: "20",
+    file_width: "100",
+    file_height: "75"
+},
+2020-03-16 05:51:57.774 +00:00 [INF] {
+    file_path: "./Test/ImageOut/stripes-960x640.100x75.png",
+    elaspsed_time: "32",
+    file_width: "100",
+    file_height: "75"
+},
+2020-03-16 05:51:57.777 +00:00 [INF] Elapsed time		444 ms
+2020-03-16 05:51:57.778 +00:00 [INF] Completed.

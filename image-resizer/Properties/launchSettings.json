@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "image-resizer": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
