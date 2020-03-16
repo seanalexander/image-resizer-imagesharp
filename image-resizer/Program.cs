@@ -18,10 +18,7 @@ namespace image_resizer
         }
         private static void ConfigureServices(ServiceCollection services)
         {
-            services.AddTransient<MyApplication>()
-                    //.AddScoped<IBusinessLayer, CBusinessLayer>()
-                    //.AddSingleton<IDataAccessLayer, CDataAccessLayer>();
-                    ;
+            services.AddTransient<MyApplication>();
 
             var serilogLogger = new LoggerConfiguration()
             .WriteTo.File("Log.txt")
