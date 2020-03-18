@@ -1,1 +1,1 @@
-# image-resizer
+# image-resizer-imagemagik
